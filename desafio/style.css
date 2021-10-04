@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+height: 40px;
+width: 100%;
+background-color: #212121;
+align-items: center;
+display: flex;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.sub-menu {
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #212121;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 100px;
+}
+
+.texto {
+    padding: 20px;
+    border-right: 2px dotted #212121;
+}
+
+.email {
+    padding: 20px;
+}
+
+.email input {
+    border:1px solid #212121;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    padding:10px 30px 10px 30px;
+    background-color: #F95C44;
+    color: white;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    padding:10px 30px 10px 30px;
+    background-color: #742014;
+    color: white;
+    border-radius: 5px;
+}
+
+.home {
+    background-color: #F9A825;
+    padding:5px 15px 5px 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+.contato {
+    background-color: #212121;
+    padding:5px 15px 5px 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+.contato:hover {
+    background-color: #F95C44;
+    padding:5px 15px 5px 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+.sobre {
+    background-color: #212121;
+    padding:5px 15px 5px 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+.sobre:hover {
+    background-color: #F95C44;
+    padding:5px 15px 5px 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+.logo {
+    font-size: 22px;
+    
+}
+
+.descricao {
+    color: white;
+    font-weight: 700;
+}
